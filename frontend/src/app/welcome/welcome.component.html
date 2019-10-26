@@ -1,0 +1,10 @@
+<h1>Welcome!</h1>
+<div class="container">
+    Welcome {{name}}.
+    You can manage your todos<a [routerLink]="['/todos']" routerLinkActive="router-link-active" >Here</a>
+</div>
+<div class="container">
+    Click here to get customised welcome message
+    <button (click)="getWelcomeMessage()" class="btn btn-success">Get welcome message</button> 
+</div>
+
