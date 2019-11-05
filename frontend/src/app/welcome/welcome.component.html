@@ -3,12 +3,22 @@
     Welcome {{name}}.
     You can manage your todos<a [routerLink]="['/todos']" routerLinkActive="router-link-active" >Here</a>
 </div>
-<div class="container"> 
+<!-- <div class="container"> 
     <h2>Click here to get customized welcome message</h2>
     
     <button (click)="getWelcomeMessage()" class="btn btn-success">Get welcome message</button> 
 </div>
 <div class="container" *ngIf="welcomeMessageFromService">
     <h2>Your Customized Welcome Message</h2>
+    {{welcomeMessageFromService}}
+</div> -->
+
+<div class="container"> 
+    <h2>Click here to get welcome message with parameter</h2>
+    
+    <button (click)="getWelcomeMessageWithParameter()" class="btn btn-success">Get welcome message with parameter</button> 
+</div>
+<div class="container" *ngIf="welcomeMessageFromService">
+    <h2>Your Customized Welcome Message with parameter</h2>
     {{welcomeMessageFromService}}
 </div>

@@ -1,4 +1,4 @@
-package com.nuwan.rest.webservices.restfulwebservices;
+package com.nuwanlwx.rest.webservices.restwebservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RestfulWebServicesApplicationTests {
+public class RestWebServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {

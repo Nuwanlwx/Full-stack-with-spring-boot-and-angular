@@ -1,13 +1,13 @@
-package com.nuwan.rest.webservices.restfulwebservices;
+package com.nuwanlwx.rest.webservices.restwebservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestfulWebServicesApplication {
+public class RestWebServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestfulWebServicesApplication.class, args);
+		SpringApplication.run(RestWebServiceApplication.class, args);
 	}
 
 }

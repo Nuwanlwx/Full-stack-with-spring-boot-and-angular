@@ -18,4 +18,9 @@ data: any;
   return this.http.get<HelloWorldBean>('http://localhost:8080/hello-world-bean');
 //  console.log('Hellow Nuwan');
  }
+//  http://localhost:8080/hello-world/path-variable/nuwan
+executeHelloWorldServiceWithPathVariable(name) {
+  return this.http.get<HelloWorldBean>(`http://localhost:8080/hello-world/path-variable/${name}`);
+//  console.log('Hellow Nuwan');
+ }
 }

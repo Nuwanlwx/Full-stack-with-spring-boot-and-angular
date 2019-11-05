@@ -8,10 +8,10 @@
 		<version>2.1.9.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.nuwan.rest.webservices</groupId>
-	<artifactId>restful-web-services</artifactId>
+	<groupId>com.nuwanlwx.rest.webservices</groupId>
+	<artifactId>rest-web-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>restful-web-services</name>
+	<name>rest-web-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -44,6 +44,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 	</dependencies>
 
 	<build>
